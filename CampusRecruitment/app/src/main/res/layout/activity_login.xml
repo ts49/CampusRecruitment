@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/pic2"
+    tools:context="com.example.phrs91.campusrecruitment.login">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signineditText"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp"
+        android:backgroundTint="#FFFFFF"
+        android:layout_alignEnd="@+id/passwordeditText"
+        android:hint="Email ID"
+        android:textColorHint="#757575"
+        android:textColor="#FFFFFF"
+        android:textCursorDrawable="@drawable/cursor"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColorHint="#757575"
+        android:id="@+id/passwordeditText"
+        android:layout_below="@+id/signineditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:backgroundTint="#F5F5F5"
+        android:textColor="#FFFFFF"
+        android:hint="Password"
+        android:textCursorDrawable="@drawable/cursor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome "
+        android:gravity="center"
+        android:id="@+id/hometextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/signineditText"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:id="@+id/loginbutton"
+        android:layout_below="@+id/passwordeditText"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/btn" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/registerbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="registeronClick"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:background="@drawable/btn"
+        android:allowUndo="true" />
+</RelativeLayout>
