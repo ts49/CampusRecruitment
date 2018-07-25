@@ -255,17 +255,12 @@ public class MainActivity extends AppCompatActivity
     }
     private void loadnavheader()
 
-    {       try {
-            Thread.currentThread().wait(1000);
-            }
-            catch (Exception e)
-            {
-                e.printStackTrace();
-            }
+    {       View Header=navigationView.getHeaderView(0);
 
-        TextView name=(TextView)findViewById(R.id.nammmm);
+        TextView name=(TextView)Header.findViewById(R.id.nammmm);
+
         name.setText(user.getName());
-        TextView gmail=(TextView)findViewById(R.id.gmailofuser);
+        TextView gmail=(TextView)Header.findViewById(R.id.gmailofuser);
         gmail.setText(user.getEmail());
         FirebaseStorage firebaseStorage=FirebaseStorage.getInstance();
         StorageReference storageRef=firebaseStorage.getReference();
