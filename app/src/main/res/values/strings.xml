@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Campus Recruitment</string>
+
+    <string-array name="Category">
+        <item>--Category--</item>
+        <item>Genral</item>
+        <item>OBC</item>
+        <item>SC</item>
+        <item>ST</item>
+    </string-array>
+
+    <string-array name="Country">
+        <item>--Country--</item>
+        <item>India</item>
+        <item>Nepal</item>
+        <item>SriLanka</item>
+        <item>Bangladesh</item>
+        <item>Afghanistan</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="State">
+        <item>--State--</item>
+        <item>Andhra Pradesh
+</item>
+        <item>Arunachal Pradesh
+</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh
+</item>
+        <item>Jammu and Kashmir
+</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh
+</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha (Orissa)
+</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu
+</item>
+        <item>Telangana
+</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh
+</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal
+</item>
+    </string-array>
+    <string-array name="Course">
+        <item>--Course--</item>
+        <item>B.Tech</item>
+        <item>M.Tech</item>
+        <item>M.C.A.</item>
+    </string-array>
+    <string-array name="B_Tech_array">
+        <item>--Branch--</item>
+        <item>CSE</item>
+        <item>IT</item>
+        <item>ECE</item>
+        <item>EE</item>
+        <item>ME</item>
+        <item>BT</item>
+        <item>PI</item>
+        <item>CHE</item>
+        <item>CE</item>
+    </string-array>
+    <string-array name="M_Tech_array">
+        <item>--Branch--</item>
+        <item>CSE</item>
+        <item>AM</item>
+        <item>ECE</item>
+        <item>EE</item>
+        <item>ME</item>
+        <item>GC</item>
+        <item>CE</item>
+    </string-array>
+    <string-array name="MCA_array">
+        <item>--Branch--</item>
+        <item>CSE</item>
+    </string-array>
+    <string-array name="NoneState">
+        <item>--None--</item>
+
+    </string-array>
+
+    <string-array name="NoneBranch">
+        <item>--None--</item>
+    </string-array>
+    <string name="title_activity_loged_in">LogedInActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

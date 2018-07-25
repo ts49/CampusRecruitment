@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "682545556553",
+    "firebase_url": "https://campusrecruitment-25e7c.firebaseio.com",
+    "project_id": "campusrecruitment-25e7c",
+    "storage_bucket": "campusrecruitment-25e7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682545556553:android:cd203ae008ffee8c",
+        "android_client_info": {
+          "package_name": "com.example.phrs91.campusrecruitment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682545556553-9bro0raugm6i0m66ll917vb4ivhu3qg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phrs91.campusrecruitment",
+            "certificate_hash": "19848ef961b6fe28e90875e45da677b4599acf94"
+          }
+        },
+        {
+          "client_id": "682545556553-ovv3j6801shm48pdb1fae2up2i1tbgbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phrs91.campusrecruitment",
+            "certificate_hash": "770828d806e77e7775942e61ec84a3df5f07feb2"
+          }
+        },
+        {
+          "client_id": "682545556553-snljkgsblbalem0hcib9vbprvv4g76cp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phrs91.campusrecruitment",
+            "certificate_hash": "281f294dca31618b30fa98372938a809f9f5274a"
+          }
+        },
+        {
+          "client_id": "682545556553-ljc8bc1cn3p486694s366ds5e7vh3llg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0NFRfJ1FysL7dTwj4UwM4Yjjag36-jDM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682545556553-ljc8bc1cn3p486694s366ds5e7vh3llg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

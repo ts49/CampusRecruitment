@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/companies"
+            android:icon="@drawable/companies"
+            android:title="Companies" />
+        <item
+            android:id="@+id/internship"
+            android:icon="@drawable/tie1"
+            android:title="Registered Companies" />
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/support"
+            android:title="Forum/Feedback" />
+
+        <item
+            android:id="@+id/contacts"
+            android:icon="@drawable/call"
+            android:title="Contacts" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/lg"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

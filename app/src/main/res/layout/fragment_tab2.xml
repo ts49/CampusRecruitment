@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic2"
+    tools:context="com.example.phrs91.campusrecruitment.Fragments.Tab2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="150dp"
+        android:paddingLeft="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padiinginprofilepersonal"
+        android:text="10th Percentage"
+        android:textSize="20dp"
+
+        android:textColor="#FFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10th Percentage"
+        android:textSize="20dp"
+        android:id="@+id/p10th"
+        android:textStyle="bold"
+
+        android:textColor="#757575"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="12th Percentage"
+        android:textSize="20dp"
+        android:textColor="#FFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12th Percentage"
+        android:textSize="20dp"
+        android:id="@+id/p12th"
+        android:textStyle="bold"
+
+        android:textColor="#757575"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="CPI"
+        android:textSize="20dp"
+        android:textColor="#FFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CPI"
+        android:id="@+id/cpi"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:textColor="#757575"/>
+
+    </LinearLayout>
+
+</FrameLayout>

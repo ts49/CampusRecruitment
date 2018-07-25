@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic2"
+    tools:context="com.example.phrs91.campusrecruitment.Fragments.Tab4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="150dp"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:textSize="30dp"/>
+
+
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Password"
+            android:id="@+id/c1"
+            android:textColorHint="#757575"
+            android:paddingTop="10dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Re-enter New Password"
+            android:id="@+id/c2"
+            android:textColorHint="#757575"
+            android:paddingTop="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:id="@+id/bbbbb"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn"
+            android:textColor="#FFFF"
+            />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
