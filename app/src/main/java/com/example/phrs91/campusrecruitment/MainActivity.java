@@ -120,6 +120,7 @@ public class MainActivity extends AppCompatActivity
         if(firebaseUser==null)
         {
             Intent t=new Intent(MainActivity.this,login.class);
+            t.putExtra("Exit",false);
             startActivity(t);
         }
         else
@@ -290,6 +291,7 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+
     private void setToolbarTitle() {
         getSupportActionBar().setTitle(activityTitles[selecteditem]);
     }
@@ -307,6 +309,10 @@ public class MainActivity extends AppCompatActivity
 
         } else {
             super.onBackPressed();
+            Intent intent=new Intent(MainActivity.this,login.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            intent.putExtra("Exit",true);
+            startActivity(intent);
         }
     }
 

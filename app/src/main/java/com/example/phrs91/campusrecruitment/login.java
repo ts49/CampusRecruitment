@@ -46,6 +46,10 @@ public class login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        if(getIntent().getBooleanExtra("Exit",false))
+        {
+            finish();
+        }
         Button b=(Button)findViewById(R.id.Forgotpassword);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
